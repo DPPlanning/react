@@ -1,0 +1,26 @@
+.api_input__section{
+    margin: 0 auto;
+    width: 400px;
+    text-align: left;
+}
+.api_input__section div{
+    margin-top: 10px;
+}
+.api_input__section div h4 {
+    margin: 0;
+}
+.api_input__section input[type=text]{
+    width: 384px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.api_input__section button{
+    margin-top: 20px;
+    width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-size: 18px;
+}

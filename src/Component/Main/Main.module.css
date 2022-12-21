@@ -1,0 +1,46 @@
+.employee__client_list_title{
+    display: grid;
+    grid-template-columns: 150px 200px 150px 200px 200px 200px 80px 80px;
+}
+.employee__client_list_title div{
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.employee__client_list_list{
+    display: grid;
+    grid-template-columns: 150px 200px 150px 200px 200px 200px 80px 80px;
+}
+.employee__client_list_list div{
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.client__update_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.client__update_modal_form{
+    margin: 5% auto;
+    padding: 50px 10px;
+    width: 340px;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+}
+.client__update_modal_form h4{
+    margin: 10px 0;
+}   
+.client__update_modal_form input[type=text]{
+    width: 320px;
+    font-size: 18px;
+}
+.client__update_modal_form button{
+    display: block;
+    margin: 10px auto;
+}

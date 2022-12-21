@@ -1,0 +1,9 @@
+.footer__content_section{
+    height: 5vh;
+    background-color: var(--base-color);
+    padding: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+}
+.footer__content{
+    text-align: center;
+}

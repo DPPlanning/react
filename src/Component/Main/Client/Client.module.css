@@ -1,0 +1,46 @@
+.client_input_form{
+    position: relative;
+    margin: 0px auto 0;
+    width: 340px;
+    height: max-content;
+    text-align: center;
+    padding: 20px 4px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.01); */
+}
+.client_input_form div{
+    padding: 10px 0px;
+    text-align: left;
+}
+.client_input_form h5{
+    margin: 5px;
+}
+.client_input_text{
+    margin: 0 auto;
+    padding: 10px;
+    width: 314px;
+    font-size: 16px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.client_input_text:focus{
+    border: 3px solid var(--base-color);
+    border-radius: 5px;
+    outline: none;
+}
+.client_input_button{
+    margin: 40px auto 0;
+    padding: 10px;
+    width: 100%;
+    background-color: var( --hover-color);
+    color: var(--hover-font-color);
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.client_input_button:hover{
+    background-color: var( --base-color);
+    color: var(--base-font-color);
+    font-size: 16px;
+}

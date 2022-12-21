@@ -1,0 +1,40 @@
+.look_up__client__section{
+    margin: 10% auto;
+}
+.look_up__list{
+    display: grid;
+    grid-template-columns: 200px 200px 150px 150px 150px;
+    text-align: center;
+}
+.look_up__list_title div{
+    padding: 5px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.look_up__list_content div{
+    padding: 5px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.look_up__list_no_data{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.look_up__client__section_form form{
+    display: flex;
+}
+.look_up__client__section_form input[type=text]{
+    height: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.look_up__client__section_form button{
+    display: block;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+}
